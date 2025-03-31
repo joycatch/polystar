@@ -58,7 +58,6 @@ public class WordCountRunner {
 
         } catch (Exception e) {
             log.error("Failed to fetch and count words", e);
-            return;
         }
         executorService.shutdown();
     }
