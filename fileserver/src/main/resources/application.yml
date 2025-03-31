@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: fileserver
+  main:
+    banner-mode: "off"
+
+server:
+  port: 9001
+  fileName: "src/main/resources/frankenstein.txt"
